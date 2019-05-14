@@ -1,0 +1,38 @@
+<!-- views/index.ejs -->
+<!doctype html>
+<html>
+<head>
+	<title>Node Authentication</title>
+		<!--- JS References -!-->
+	<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+	<!--- for dragabbles -!-->
+	<script type="text/javascript" src="./js/socketio2.0.4.min.js"></script>
+	<script type="text/javascript" src="./js/jqColorPicker.min.js"></script>
+
+	<script type="text/javascript" src="./js/whiteboard.js"></script>
+	<script type="text/javascript" src="./js/main.js"></script>
+
+	<!--- CSS References -!-->
+	<link rel="stylesheet" href="./css/jquery-ui.min.css">
+	<link href="./css/fontawesome-all.min.css" rel="stylesheet">
+	<link href="./css/main.css" rel="stylesheet">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+	<style>
+		body 		{ padding-top:80px; }
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1><span class="fa fa-lock"></span> Node Authentication</h1>
+
+            <p>Login or Register with:</p>
+
+            <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
+            <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Canvas
+ */
+
+.canv {
+  width: 100%;
+  height: 81%;
+  border-bottom: solid;
+}
+
+.whiteboard {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.colors {
+  position: fixed;
+}
+
+.color {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-top: 2%;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  --border-radius: 35px;
+  border-radius: 35px;
+}
+
+.color.black {
+  background-color: black;
+}
+
+.color.red {
+  background-color: red;
+}
+
+.color.green {
+  background-color: green;
+}
+
+.color.blue {
+  background-color: blue;
+}
+
+.color.yellow {
+  background-color: yellow;
+}
+
+.color.white {
+  background-color: white;
+  margin-top:-8%;
+}
+
+.color.pink {
+  background-color: rgb(156, 82, 94);
+}
